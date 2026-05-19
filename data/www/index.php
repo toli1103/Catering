@@ -1,67 +1,4 @@
-<!doctype html>
-<html lang="sl">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Okus po domu | Catering</title>
-
-  <!-- Bootstrap 5 CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Bootstrap ikone -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
-
-  <!-- Moja CSS datoteka -->
-  <link rel="stylesheet" href="css/obliko.css">
-</head>
-
-<body>
-
-  <!-- NAVIGACIJA -->
-  <header class="site-header sticky-top">
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container">
-
-        <a class="navbar-brand logo-wrap" href="index.html">
-          <div class="logo-text">
-            <span class="logo-green">Okus</span>
-            <span class="logo-small">po</span>
-            <span class="logo-dark">domu</span>
-            <i class="bi bi-house-heart logo-icon"></i>
-          </div>
-        </a>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#glavnaNavigacija"
-          aria-controls="glavnaNavigacija" aria-expanded="false" aria-label="Odpri navigacijo">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="glavnaNavigacija">
-          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-4">
-            <li class="nav-item">
-              <a class="nav-link active" href="index.html">DOMOV</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="nasa-zgodba.html">NAŠA ZGODBA</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="galerija.html">GALERIJA</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="narocila.html">NAROČILA</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="ocene.html">OCENE</a>
-            </li>
-          </ul>
-
-          <a href="narocila.html" class="btn btn-main-small d-none d-lg-inline-block">Povpraševanje</a>
-        </div>
-
-      </div>
-    </nav>
-  </header>
-
+<?php include 'header.php'; ?>
 
   <main>
 
@@ -121,7 +58,7 @@
               ki vsak dogodek spremenijo v prijetno doživetje.
             </p>
 
-            <a href="nasa-zgodba.html" class="btn btn-main mt-4">Preberi več</a>
+            <a href="nasa-zgodba.php" class="btn btn-main mt-4">Preberi več</a>
           </div>
         </div>
       </div>
@@ -289,7 +226,7 @@
 
         </div>
         <div class="hero-buttons">
-          <a href="index.html#galerija" class="btn btn-outline-main">Poglej celotno galerijo</a>
+          <a href="index.php#galerija" class="btn btn-outline-main">Poglej celotno galerijo</a>
         </div>
       </div>
     </section>
@@ -353,7 +290,7 @@
         </div>
 
         <div class="text-center mt-4">
-          <a href="ocene.html" class="btn btn-outline-main">Preberi vse ocene</a>
+          <a href="ocene.php" class="btn btn-outline-main">Preberi vse ocene</a>
         </div>
 
       </div>
@@ -490,36 +427,4 @@
   </main>
 
 
-  <!-- FOOTER -->
-  <footer class="site-footer">
-    <div class="container text-center">
-
-      <div class="footer-logo">
-        <span class="logo-green">Okus</span>
-        <span class="logo-small">po</span>
-        <span class="logo-dark">domu</span>
-        <i class="bi bi-house-heart logo-icon"></i>
-      </div>
-
-      <p>
-        NAJ CATERING NE BO LE HRANA IN PIJAČA.<br>
-        VI IZBERETE NAS, MI USTVARJAMO DOŽIVETJE!
-      </p>
-
-      <div class="social-icons">
-        <a href="#"><i class="bi bi-instagram"></i></a>
-        <a href="#"><i class="bi bi-facebook"></i></a>
-        <a href="#"><i class="bi bi-envelope"></i></a>
-      </div>
-
-      <small>© 2026 Okus po domu. Vse pravice pridržane.</small>
-
-    </div>
-  </footer>
-
-
-  <!-- Bootstrap 5 JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-</body>
-</html>
+  <?php include 'footer.php'; ?>
